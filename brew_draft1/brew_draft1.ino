@@ -15,8 +15,8 @@ DallasTemperature sensors(&MyWireBus); //pass bus to DStemp library
 
 /*----( setup LCD )----*/
 #include "Wire.h"
-#include "LiquidCrystal.h"
-LiquidCrystal lcd(0);
+#include "LiquidTWI.h"
+LiquidTWI lcd(0);
 
 /*-----( Setup PID )-----*/
 #include <PID_v1.h>
